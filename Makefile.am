@@ -44,6 +44,7 @@ cpuminer_SOURCES = \
   sha3/sph_whirlpool.c \
   sha3/sph_tiger.c \
   sha3/gost_streebog.c \
+  sha3/sha3.c \
   crypto/blake2s.c \
   crypto/blake2b.c \
   crypto/oaes_lib.c \
