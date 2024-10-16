@@ -7,6 +7,7 @@
 #include "sha3/sph_keccak.h"
 #include "sha3/sph_blake.h"
 #include "sha3/sph_groestl.h"
+#include "sha3/sha3.h"
 
 /* Combines top 64-bits from each hash into a single hash */
 static void combine_hashes(uint32_t *out, uint32_t *hash1, uint32_t *hash2, uint32_t *hash3, uint32_t *hash4)
